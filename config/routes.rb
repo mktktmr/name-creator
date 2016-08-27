@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get 'name/create'
+  post 'name/create'
 
   root 'top#index'
 
